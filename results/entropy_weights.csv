@@ -1,0 +1,11 @@
+﻿dimension,indicator,indicator_name,entropy_commune,divergence_commune,weight_entropy_commune (baseline),weight_equal (R1),entropy_cell,divergence_cell,weight_entropy_cell (R2)
+I,road,Road density,0.993102,0.00689799,0.0808583,0.25,0.962477,0.0375233,0.260762
+I,tel,Telecommunications (distance to nearest base station),0.98544,0.0145603,0.170676,0.25,0.99132,0.00867958,0.0603173
+I,ntl,Night-time light,0.948844,0.0511562,0.599654,0.25,0.911855,0.0881454,0.612552
+I,hub,Airports and seaports (network distance),0.987305,0.0126951,0.148812,0.25,0.99045,0.00955044,0.0663692
+II,health,Healthcare facilities (network distance),0.99809,0.00190982,0.124732,0.333333,0.996874,0.00312566,0.248802
+II,school,Schools (network distance),0.997776,0.00222375,0.145236,0.333333,0.997304,0.00269644,0.214637
+II,retail,Shopping malls and supermarkets (network distance),0.988822,0.0111778,0.730032,0.333333,0.993259,0.00674071,0.536561
+III,green,Green and blue space (network distance),0.993725,0.00627507,0.202762,0.333333,0.994543,0.00545684,0.264258
+III,water,Water supply (network distance),0.989477,0.0105232,0.340029,0.333333,0.993787,0.00621338,0.300896
+III,waste,Waste treatment (network distance),0.98585,0.0141497,0.457209,0.333333,0.991021,0.00897941,0.434846

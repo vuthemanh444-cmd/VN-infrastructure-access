@@ -1,0 +1,20 @@
+﻿scenario,description,core_scenario,C1_lowest_access_region_group,C2_rural_lower_than_urban,C3_gini_ranking,C4_spatial_level_of_inequality,C5_majority_class_by_region
+BASE,Baseline,True,baseline,baseline,baseline,baseline,baseline
+R1,Equal weights,True,robust,robust,robust,changed (III),robust
+R2,Cell-level entropy weights,True,robust,robust,robust,robust,robust
+R3,Telecommunications removed from the economic dimension,True,robust,robust,robust,robust,robust
+R4,Basic public healthcare facilities only,True,robust,robust,robust,robust,robust
+R5,Overture confidence ≥ 0.5,True,robust,robust,robust,robust,robust
+R6,Aggregated 2 km cells (MAUP),True,robust,robust,robust,robust,robust
+R8a,Telecommunications: kernel density 3 km,True,robust,robust,robust,robust,robust
+R8b,Telecommunications: kernel density 5 km,True,robust,robust,robust,robust,robust
+R8c,Telecommunications: kernel density 10 km,True,robust,robust,robust,robust,robust
+R9,No log transformation,False,robust,robust,robust,robust,"changed (R1, R3)"
+R10,"Euclidean instead of network distance (health, school, airports/seaports, malls/supermarkets, water supply, waste)",False,robust,robust,robust,robust,changed (R1)
+R12,Winsorisation 1/99% (after transformation),True,robust,robust,robust,robust,robust
+R13a,Distance floor 1 m,False,robust,robust,robust,robust,robust
+R13b,"Distance floor 1,000 m",False,robust,robust,robust,robust,robust
+R14a,H/M/L percentiles 20/80,False,not applicable,not applicable,not applicable,not applicable,changed (R1)
+R14b,H/M/L percentiles 33/67,False,not applicable,not applicable,not applicable,not applicable,changed (R3)
+R15,No imputed commune health stations,True,robust,robust,robust,robust,robust
+R16,Environmental dimension = green and blue space only,True,changed (III),robust,robust*,changed (III),changed (R1)

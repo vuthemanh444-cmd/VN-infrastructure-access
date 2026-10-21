@@ -1,0 +1,7 @@
+﻿comparison,dimension,pwe_difference,ci_lo,ci_hi
+Urban − Rural,I,0.246236,0.199931,0.281776
+Urban − Rural,II,0.259275,0.219183,0.287717
+Urban − Rural,III,0.193386,0.14035,0.230003
+Southeast − Northern Midlands and Mountains,I,0.318995,0.172497,0.389088
+Southeast − Northern Midlands and Mountains,II,0.245447,0.10314,0.316854
+Southeast − North Central Coast,III,0.268869,0.160939,0.323169

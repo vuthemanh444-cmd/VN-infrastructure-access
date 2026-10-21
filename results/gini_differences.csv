@@ -1,0 +1,10 @@
+﻿code,comparison,gini_difference,ci_lo,ci_hi,significant
+urban-rural_I,Dimension I: Urban − Rural,-0.106431,-0.136277,-0.0834857,True
+R1-R5_I,Dimension I: Northern Midlands and Mountains − Southeast,0.15878,0.109617,0.206828,True
+urban-rural_II,Dimension II: Urban − Rural,-0.0266309,-0.0453011,-0.00930839,True
+R1-R2_II,Dimension II: Northern Midlands and Mountains − Red River Delta,0.0673034,0.0506156,0.0929193,True
+urban-rural_III,Dimension III: Urban − Rural,-0.0265333,-0.0521434,-0.00490634,True
+R1-R5_III,Dimension III: Northern Midlands and Mountains − Southeast,0.0758184,0.0485566,0.104482,True
+VN_I-II,National: dimension I − dimension II,0.107253,0.095052,0.117005,True
+VN_I-III,National: dimension I − dimension III,0.0834212,0.0674332,0.0981076,True
+VN_II-III,National: dimension II − dimension III,-0.0238313,-0.030325,-0.0143316,True

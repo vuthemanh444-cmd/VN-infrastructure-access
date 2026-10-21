@@ -1,0 +1,13 @@
+﻿dimension,indicator_1,indicator_2,spearman_cell,spearman_commune,spearman_province
+I,road,tel,0.518493,0.629903,0.742034
+I,road,ntl,0.773708,0.85154,0.789292
+I,road,hub,0.450486,0.531984,0.392279
+I,tel,ntl,0.650802,0.694899,0.833011
+I,tel,hub,0.458246,0.463745,0.551246
+I,ntl,hub,0.594537,0.626188,0.590015
+II,health,school,0.722798,0.92458,0.96886
+II,health,retail,0.607266,0.784867,0.872239
+II,school,retail,0.589262,0.792337,0.889432
+III,green,water,0.583759,0.655318,0.832452
+III,green,waste,0.511759,0.576788,0.774773
+III,water,waste,0.691862,0.697211,0.865793

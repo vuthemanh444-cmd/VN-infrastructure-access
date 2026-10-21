@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite both the article and the dataset."
+title: "Infrastructure accessibility and inequality at the commune/ward level in Vietnam: data and results"
+type: dataset
+authors:
+  - family-names: "Ngo"
+    given-names: "Thuy Hao"
+    email: "nthao@vnu.edu.vn"
+    affiliation: "Faculty of Development Economics, VNU University of Economics and Business, Vietnam National University, Hanoi, Vietnam"
+  - family-names: "Vu"
+    given-names: "The Manh"
+    affiliation: "Faculty of Development Economics, VNU University of Economics and Business, Vietnam National University, Hanoi, Vietnam"
+contact:
+  - family-names: "Ngo"
+    given-names: "Thuy Hao"
+    email: "nthao@vnu.edu.vn"
+repository-code: "https://github.com/vuthemanh444-cmd/VN-infrastructure-access"
+url: "https://github.com/vuthemanh444-cmd/VN-infrastructure-access"
+version: "1.0.0"
+date-released: "2026-10-21"
+license: ODbL-1.0
+keywords:
+  - infrastructure accessibility
+  - spatial inequality
+  - population-weighted exposure
+  - Gini coefficient
+  - Theil decomposition
+  - Vietnam
+preferred-citation:
+  type: article
+  title: "Overlapping deprivations and inequalities in access to infrastructure at the commune/ward level in Vietnam"
+  authors:
+    - family-names: "Ngo"
+      given-names: "Thuy Hao"
+    - family-names: "Vu"
+      given-names: "The Manh"
+  year: 2026

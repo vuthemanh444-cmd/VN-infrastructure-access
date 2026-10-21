@@ -1,0 +1,11 @@
+﻿indicator,dimension,indicator_name,source_column,direction,transformation,min_transformed,max_transformed,pct_cells_x0,pct_cells_x1,pct_population_x0,pct_cells_at_500m_floor,pwe_normalised
+road,I,Road density,road_density,+,ln(1+x),0,3.54954,27.229,0.000389481,1.7505,,0.574128
+tel,I,Telecommunications (distance to nearest base station),d_tel,-,"ln(max(d, 500 m))",6.21461,12.116,0.000389481,0.639917,1.43039e-05,0.639917,0.543955
+ntl,I,Night-time light,ntl_2025,+,ln(1+x),0,5.95018,56.2695,0.000389481,12.136,,0.289308
+hub,I,Airports and seaports (network distance),d_hub,-,"ln(max(d, 500 m))",6.21461,12.8945,0.000389481,0.00895806,1.41904e-06,0.00895806,0.379687
+health,II,Healthcare facilities (network distance),d_health,-,"ln(max(d, 500 m))",6.21461,11.8299,0.000389481,1.903,1.8849e-06,1.903,0.790829
+school,II,Schools (network distance),d_school,-,"ln(max(d, 500 m))",6.21461,12.4806,0.000389481,2.51722,1.16901e-06,2.51722,0.838857
+retail,II,Shopping malls and supermarkets (network distance),d_retail,-,"ln(max(d, 500 m))",6.21461,12.5244,0.000389481,0.108276,6.66548e-07,0.108276,0.560897
+green,III,Green and blue space (network distance),d_green,-,"ln(max(d, 500 m))",6.21461,11.9654,0.000389481,2.8175,1.8849e-06,2.8175,0.701474
+water,III,Water supply (network distance),d_water,-,"ln(max(d, 500 m))",6.21461,13.0241,0.000389481,0.0755593,1.27587e-06,0.0755593,0.474684
+waste,III,Waste treatment (network distance),d_waste,-,"ln(max(d, 500 m))",6.21461,12.9468,0.000389481,0.0249268,2.49956e-07,0.0249268,0.43475

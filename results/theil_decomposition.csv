@@ -1,0 +1,19 @@
+﻿dimension,component,theil_value,value_ci_lo,value_ci_hi,share_pct,share_ci_lo,share_ci_hi
+I,total,0.122931,0.108498,0.13466,100,,
+I,between_regions,0.0392004,0.0205739,0.0566079,31.8881,18.0571,44.6878
+I,between_provinces_within_regions,0.0172179,0.0128164,0.0246101,14.0061,10.9998,19.8316
+I,between_communes_within_provinces,0.0537208,0.040993,0.061762,43.6999,32.7528,53.9345
+I,within_communes,0.012792,0.0094127,0.0154318,10.4059,7.78374,13.3482
+I,sub_provincial (between communes within provinces + within communes),,,,54.1058,40.7688,67.2763
+II,total,0.0453384,0.0399893,0.0488956,100,,
+II,between_regions,0.00921981,0.00406104,0.0150366,20.3356,9.77847,32.1572
+II,between_provinces_within_regions,0.00651794,0.00433774,0.0098993,14.3762,10.3905,21.0432
+II,between_communes_within_provinces,0.0254578,0.0202591,0.0278632,56.1506,44.0978,65.8916
+II,within_communes,0.00414285,0.00344669,0.00446682,9.13762,7.36557,10.8941
+II,sub_provincial (between communes within provinces + within communes),,,,65.2882,51.7486,76.5777
+III,total,0.0586371,0.0497411,0.0647192,100,,
+III,between_regions,0.0221272,0.0134698,0.030299,37.7358,25.6153,48.5957
+III,between_provinces_within_regions,0.0149006,0.011502,0.019479,25.4115,20.3157,33.6202
+III,between_communes_within_provinces,0.0197677,0.0154372,0.0212981,33.712,25.761,40.9382
+III,within_communes,0.00184163,0.00152554,0.00196071,3.14072,2.47659,3.82905
+III,sub_provincial (between communes within provinces + within communes),,,,36.8527,28.3346,44.6524

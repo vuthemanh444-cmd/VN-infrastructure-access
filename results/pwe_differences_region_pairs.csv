@@ -1,0 +1,46 @@
+﻿dimension,region_A,region_B,code_A,code_B,pwe_difference_A_minus_B,ci_lo,ci_hi,significant
+I,Red River Delta,Northern Midlands and Mountains,R2,R1,0.213975,0.151644,0.275098,True
+I,North Central Coast,Northern Midlands and Mountains,R3,R1,0.0739185,0.0266853,0.120174,True
+I,South Central Coast and Central Highlands,Northern Midlands and Mountains,R4,R1,0.135502,0.0901856,0.185149,True
+I,Southeast,Northern Midlands and Mountains,R5,R1,0.318995,0.172497,0.389088,True
+I,Mekong River Delta,Northern Midlands and Mountains,R6,R1,0.0968789,0.0581101,0.136422,True
+I,Red River Delta,North Central Coast,R2,R3,0.140056,0.0687063,0.205334,True
+I,Red River Delta,South Central Coast and Central Highlands,R2,R4,0.078473,0.00600755,0.146042,True
+I,Southeast,Red River Delta,R5,R2,0.10502,-0.0404267,0.189447,False
+I,Red River Delta,Mekong River Delta,R2,R6,0.117096,0.0514288,0.176192,True
+I,South Central Coast and Central Highlands,North Central Coast,R4,R3,0.0615833,0.0109004,0.117486,True
+I,Southeast,North Central Coast,R5,R3,0.245076,0.102995,0.319464,True
+I,Mekong River Delta,North Central Coast,R6,R3,0.0229604,-0.0234642,0.0717903,False
+I,Southeast,South Central Coast and Central Highlands,R5,R4,0.183493,0.0335041,0.255665,True
+I,South Central Coast and Central Highlands,Mekong River Delta,R4,R6,0.038623,-0.0121488,0.0894622,False
+I,Southeast,Mekong River Delta,R5,R6,0.222116,0.0745506,0.292171,True
+II,Red River Delta,Northern Midlands and Mountains,R2,R1,0.191826,0.118318,0.264981,True
+II,North Central Coast,Northern Midlands and Mountains,R3,R1,0.0481339,-0.00615992,0.104384,False
+II,South Central Coast and Central Highlands,Northern Midlands and Mountains,R4,R1,0.0900701,0.0363912,0.146068,True
+II,Southeast,Northern Midlands and Mountains,R5,R1,0.245447,0.10314,0.316854,True
+II,Mekong River Delta,Northern Midlands and Mountains,R6,R1,0.0692207,0.0225137,0.115752,True
+II,Red River Delta,North Central Coast,R2,R3,0.143693,0.0653733,0.220438,True
+II,Red River Delta,South Central Coast and Central Highlands,R2,R4,0.101756,0.0182688,0.17571,True
+II,Southeast,Red River Delta,R5,R2,0.0536207,-0.091454,0.146437,False
+II,Red River Delta,Mekong River Delta,R2,R6,0.122606,0.0498203,0.191852,True
+II,South Central Coast and Central Highlands,North Central Coast,R4,R3,0.0419362,-0.0117589,0.104486,False
+II,Southeast,North Central Coast,R5,R3,0.197313,0.0549336,0.272281,True
+II,Mekong River Delta,North Central Coast,R6,R3,0.0210868,-0.0246826,0.071528,False
+II,Southeast,South Central Coast and Central Highlands,R5,R4,0.155377,0.0152626,0.227223,True
+II,South Central Coast and Central Highlands,Mekong River Delta,R4,R6,0.0208494,-0.0292533,0.0749369,False
+II,Southeast,Mekong River Delta,R5,R6,0.176226,0.0363568,0.24639,True
+III,Red River Delta,Northern Midlands and Mountains,R2,R1,0.212618,0.131592,0.284895,True
+III,Northern Midlands and Mountains,North Central Coast,R1,R3,0.016647,-0.0241788,0.0557772,False
+III,South Central Coast and Central Highlands,Northern Midlands and Mountains,R4,R1,0.0825872,0.0351888,0.141355,True
+III,Southeast,Northern Midlands and Mountains,R5,R1,0.252222,0.134844,0.3122,True
+III,Mekong River Delta,Northern Midlands and Mountains,R6,R1,0.0271381,-0.015658,0.0694565,False
+III,Red River Delta,North Central Coast,R2,R3,0.229265,0.14465,0.295333,True
+III,Red River Delta,South Central Coast and Central Highlands,R2,R4,0.130031,0.041439,0.20692,True
+III,Southeast,Red River Delta,R5,R2,0.0396038,-0.085391,0.13692,False
+III,Red River Delta,Mekong River Delta,R2,R6,0.18548,0.100472,0.258075,True
+III,South Central Coast and Central Highlands,North Central Coast,R4,R3,0.0992342,0.051291,0.153182,True
+III,Southeast,North Central Coast,R5,R3,0.268869,0.160939,0.323169,True
+III,Mekong River Delta,North Central Coast,R6,R3,0.0437851,0.000755943,0.0851225,True
+III,Southeast,South Central Coast and Central Highlands,R5,R4,0.169635,0.0445743,0.230579,True
+III,South Central Coast and Central Highlands,Mekong River Delta,R4,R6,0.0554491,0.0022055,0.112529,True
+III,Southeast,Mekong River Delta,R5,R6,0.225084,0.113641,0.281042,True

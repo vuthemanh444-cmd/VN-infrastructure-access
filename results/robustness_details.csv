@@ -1,0 +1,96 @@
+﻿scenario,conclusion,status,details
+BASE,C1_lowest_access_region_group,baseline,I: R1; II: R1+R3; III: R1+R3
+BASE,C2_rural_lower_than_urban,baseline,"I: 0.246 [0.200, 0.282]; II: 0.259 [0.219, 0.288]; III: 0.193 [0.140, 0.230]"
+BASE,C3_gini_ranking,baseline,"I > III > II (I 0.278, II 0.171, III 0.195)"
+BASE,C4_spatial_level_of_inequality,baseline,"I: 54.1% [40.8, 67.3]; II: 65.3% [51.7, 76.6]; III: 36.9% [28.3, 44.7]"
+BASE,C5_majority_class_by_region,baseline,R1: I (38%); R2: III (96%); R3: III (51%); R4: III (60%); R5: III (91%); R6: III (71%)
+R1,C1_lowest_access_region_group,robust,I: R1; II: R1; III: R1+R3+R6
+R1,C2_rural_lower_than_urban,robust,"I: 0.213 [0.168, 0.247]; II: 0.206 [0.175, 0.226]; III: 0.203 [0.154, 0.237]"
+R1,C3_gini_ranking,robust,"I > III > II (I 0.211, II 0.126, III 0.182)"
+R1,C4_spatial_level_of_inequality,changed (III),"I: 52.6% [39.6, 65.3]; II: 68.5% [56.2, 79.1]; III: 41.9% [32.3, 51.0]"
+R1,C5_majority_class_by_region,robust,R1: I (38%); R2: III (96%); R3: III (58%); R4: III (63%); R5: III (88%); R6: III (66%)
+R2,C1_lowest_access_region_group,robust,I: R1; II: R1+R3; III: R1+R3+R6
+R2,C2_rural_lower_than_urban,robust,"I: 0.245 [0.202, 0.277]; II: 0.234 [0.199, 0.259]; III: 0.197 [0.147, 0.232]"
+R2,C3_gini_ranking,robust,"I > III > II (I 0.271, II 0.146, III 0.189)"
+R2,C4_spatial_level_of_inequality,robust,"I: 60.4% [47.2, 73.0]; II: 65.9% [52.7, 77.1]; III: 38.9% [30.1, 47.2]"
+R2,C5_majority_class_by_region,robust,R1: I (39%); R2: III (96%); R3: III (54%); R4: III (63%); R5: III (89%); R6: III (69%)
+R3,C1_lowest_access_region_group,robust,I: R1; II: R1+R3; III: R1+R3
+R3,C2_rural_lower_than_urban,robust,"I: 0.243 [0.199, 0.276]; II: 0.259 [0.219, 0.288]; III: 0.193 [0.140, 0.230]"
+R3,C3_gini_ranking,robust,"I > III > II (I 0.305, II 0.171, III 0.195)"
+R3,C4_spatial_level_of_inequality,robust,"I: 59.2% [46.2, 71.3]; II: 65.3% [51.7, 76.6]; III: 36.9% [28.3, 44.7]"
+R3,C5_majority_class_by_region,robust,R1: I (39%); R2: III (96%); R3: III (51%); R4: III (61%); R5: III (90%); R6: III (71%)
+R4,C1_lowest_access_region_group,robust,I: R1; II: R1+R3; III: R1+R3
+R4,C2_rural_lower_than_urban,robust,"I: 0.246 [0.200, 0.282]; II: 0.259 [0.218, 0.288]; III: 0.193 [0.140, 0.230]"
+R4,C3_gini_ranking,robust,"I > III > II (I 0.278, II 0.172, III 0.195)"
+R4,C4_spatial_level_of_inequality,robust,"I: 54.1% [40.8, 67.3]; II: 65.4% [51.8, 76.7]; III: 36.9% [28.3, 44.7]"
+R4,C5_majority_class_by_region,robust,R1: I (38%); R2: III (96%); R3: III (51%); R4: III (60%); R5: III (91%); R6: III (71%)
+R5,C1_lowest_access_region_group,robust,I: R1; II: R1+R3; III: R1+R3
+R5,C2_rural_lower_than_urban,robust,"I: 0.246 [0.200, 0.282]; II: 0.259 [0.219, 0.287]; III: 0.193 [0.140, 0.230]"
+R5,C3_gini_ranking,robust,"I > III > II (I 0.278, II 0.170, III 0.195)"
+R5,C4_spatial_level_of_inequality,robust,"I: 54.1% [40.8, 67.3]; II: 65.4% [51.8, 76.7]; III: 36.9% [28.3, 44.7]"
+R5,C5_majority_class_by_region,robust,R1: I (38%); R2: III (96%); R3: III (51%); R4: III (60%); R5: III (91%); R6: III (70%)
+R6,C1_lowest_access_region_group,robust,I: R1; II: R1+R3; III: R1+R3
+R6,C2_rural_lower_than_urban,robust,"I: 0.254 [0.206, 0.291]; II: 0.260 [0.219, 0.289]; III: 0.194 [0.141, 0.231]"
+R6,C3_gini_ranking,robust,"I > III > II (I 0.277, II 0.169, III 0.194)"
+R6,C4_spatial_level_of_inequality,robust,"I: 53.5% [40.2, 66.6]; II: 64.4% [50.5, 75.9]; III: 36.4% [27.8, 44.2]"
+R6,C5_majority_class_by_region,robust,R1: I (37%); R2: III (96%); R3: III (51%); R4: III (61%); R5: III (91%); R6: III (70%)
+R8a,C1_lowest_access_region_group,robust,I: R1; II: R1+R3; III: R1+R3
+R8a,C2_rural_lower_than_urban,robust,"I: 0.156 [0.070, 0.230]; II: 0.259 [0.219, 0.288]; III: 0.193 [0.140, 0.230]"
+R8a,C3_gini_ranking,robust,"I > III > II (I 0.558, II 0.171, III 0.195)"
+R8a,C4_spatial_level_of_inequality,robust,"I: 48.1% [33.6, 66.6]; II: 65.3% [51.7, 76.6]; III: 36.9% [28.3, 44.7]"
+R8a,C5_majority_class_by_region,robust,R1: I (38%); R2: III (96%); R3: III (51%); R4: III (61%); R5: III (90%); R6: III (71%)
+R8b,C1_lowest_access_region_group,robust,I: R1; II: R1+R3; III: R1+R3
+R8b,C2_rural_lower_than_urban,robust,"I: 0.172 [0.073, 0.255]; II: 0.259 [0.219, 0.288]; III: 0.193 [0.140, 0.230]"
+R8b,C3_gini_ranking,robust,"I > III > II (I 0.565, II 0.171, III 0.195)"
+R8b,C4_spatial_level_of_inequality,robust,"I: 43.8% [30.1, 62.3]; II: 65.3% [51.7, 76.6]; III: 36.9% [28.3, 44.7]"
+R8b,C5_majority_class_by_region,robust,R1: I (38%); R2: III (96%); R3: III (51%); R4: III (61%); R5: III (90%); R6: III (71%)
+R8c,C1_lowest_access_region_group,robust,I: R1; II: R1+R3; III: R1+R3
+R8c,C2_rural_lower_than_urban,robust,"I: 0.213 [0.082, 0.313]; II: 0.259 [0.219, 0.288]; III: 0.193 [0.140, 0.230]"
+R8c,C3_gini_ranking,robust,"I > III > II (I 0.587, II 0.171, III 0.195)"
+R8c,C4_spatial_level_of_inequality,robust,"I: 36.4% [24.4, 54.5]; II: 65.3% [51.7, 76.6]; III: 36.9% [28.3, 44.7]"
+R8c,C5_majority_class_by_region,robust,R1: I (38%); R2: III (96%); R3: III (51%); R4: III (61%); R5: III (90%); R6: III (71%)
+R9,C1_lowest_access_region_group,robust,I: R1; II: R1; III: R3
+R9,C2_rural_lower_than_urban,robust,"I: 0.066 [0.047, 0.081]; II: 0.062 [0.055, 0.068]; III: 0.064 [0.047, 0.079]"
+R9,C3_gini_ranking,robust,"I > III > II (I 0.328, II 0.034, III 0.052)"
+R9,C4_spatial_level_of_inequality,robust,"I: 59.8% [44.4, 77.4]; II: 71.8% [61.7, 76.5]; III: 31.0% [24.8, 35.1]"
+R9,C5_majority_class_by_region,"changed (R1, R3)",R1: II (42%); R2: III (96%); R3: II (43%); R4: III (48%); R5: III (88%); R6: III (74%)
+R10,C1_lowest_access_region_group,robust,I: R1; II: R1+R3; III: R3
+R10,C2_rural_lower_than_urban,robust,"I: 0.244 [0.197, 0.280]; II: 0.278 [0.237, 0.307]; III: 0.204 [0.143, 0.246]"
+R10,C3_gini_ranking,robust,"I > III > II (I 0.276, II 0.179, III 0.223)"
+R10,C4_spatial_level_of_inequality,robust,"I: 53.8% [40.5, 67.1]; II: 65.8% [51.7, 77.5]; III: 35.5% [27.0, 42.8]"
+R10,C5_majority_class_by_region,changed (R1),R1: II (44%); R2: III (96%); R3: III (42%); R4: III (55%); R5: III (88%); R6: III (70%)
+R12,C1_lowest_access_region_group,robust,I: R1; II: R1; III: R1+R3+R6
+R12,C2_rural_lower_than_urban,robust,"I: 0.364 [0.303, 0.408]; II: 0.293 [0.256, 0.320]; III: 0.265 [0.197, 0.313]"
+R12,C3_gini_ranking,robust,"I > III > II (I 0.278, II 0.181, III 0.235)"
+R12,C4_spatial_level_of_inequality,robust,"I: 54.9% [42.3, 66.3]; II: 66.8% [54.1, 76.7]; III: 36.5% [27.7, 44.1]"
+R12,C5_majority_class_by_region,robust,R1: I (40%); R2: III (96%); R3: III (54%); R4: III (64%); R5: III (90%); R6: III (70%)
+R13a,C1_lowest_access_region_group,robust,I: R1; II: R1+R3; III: R1+R3
+R13a,C2_rural_lower_than_urban,robust,"I: 0.226 [0.184, 0.259]; II: 0.188 [0.156, 0.212]; III: 0.138 [0.099, 0.165]"
+R13a,C3_gini_ranking,robust,"I > III > II (I 0.292, II 0.178, III 0.200)"
+R13a,C4_spatial_level_of_inequality,robust,"I: 55.8% [42.3, 68.8]; II: 65.2% [51.6, 77.0]; III: 37.1% [28.5, 44.8]"
+R13a,C5_majority_class_by_region,robust,R1: I (38%); R2: III (96%); R3: III (50%); R4: III (60%); R5: III (91%); R6: III (71%)
+R13b,C1_lowest_access_region_group,robust,I: R1; II: R1+R3; III: R1+R3
+R13b,C2_rural_lower_than_urban,robust,"I: 0.249 [0.203, 0.284]; II: 0.271 [0.233, 0.297]; III: 0.205 [0.149, 0.244]"
+R13b,C3_gini_ranking,robust,"I > III > II (I 0.272, II 0.166, III 0.192)"
+R13b,C4_spatial_level_of_inequality,robust,"I: 54.0% [40.8, 66.9]; II: 65.5% [51.9, 76.0]; III: 35.7% [27.1, 43.3]"
+R13b,C5_majority_class_by_region,robust,R1: I (37%); R2: III (96%); R3: III (50%); R4: III (60%); R5: III (91%); R6: III (71%)
+R14a,C1_lowest_access_region_group,not applicable,
+R14a,C2_rural_lower_than_urban,not applicable,
+R14a,C3_gini_ranking,not applicable,
+R14a,C4_spatial_level_of_inequality,not applicable,
+R14a,C5_majority_class_by_region,changed (R1),R1: II (38%); R2: III (97%); R3: III (61%); R4: III (70%); R5: III (96%); R6: III (79%)
+R14b,C1_lowest_access_region_group,not applicable,
+R14b,C2_rural_lower_than_urban,not applicable,
+R14b,C3_gini_ranking,not applicable,
+R14b,C4_spatial_level_of_inequality,not applicable,
+R14b,C5_majority_class_by_region,changed (R3),R1: I (48%); R2: III (92%); R3: II (37%); R4: III (45%); R5: III (82%); R6: III (58%)
+R15,C1_lowest_access_region_group,robust,I: R1; II: R1+R3; III: R1+R3
+R15,C2_rural_lower_than_urban,robust,"I: 0.246 [0.200, 0.282]; II: 0.255 [0.217, 0.282]; III: 0.193 [0.140, 0.230]"
+R15,C3_gini_ranking,robust,"I > III > II (I 0.278, II 0.164, III 0.195)"
+R15,C4_spatial_level_of_inequality,robust,"I: 54.1% [40.8, 67.3]; II: 65.0% [51.5, 76.3]; III: 36.9% [28.3, 44.7]"
+R15,C5_majority_class_by_region,robust,R1: I (38%); R2: III (96%); R3: III (52%); R4: III (60%); R5: III (92%); R6: III (70%)
+R16,C1_lowest_access_region_group,changed (III),I: R1; II: R1+R3; III: R1+R6
+R16,C2_rural_lower_than_urban,robust,"I: 0.246 [0.200, 0.282]; II: 0.259 [0.219, 0.288]; III: 0.244 [0.212, 0.267]"
+R16,C3_gini_ranking,robust*,"I > III > II (I 0.278, II 0.171, III 0.174); pair with CI containing 0: II-III"
+R16,C4_spatial_level_of_inequality,changed (III),"I: 54.1% [40.8, 67.3]; II: 65.3% [51.7, 76.6]; III: 71.2% [61.5, 79.2]"
+R16,C5_majority_class_by_region,changed (R1),R1: II (42%); R2: III (88%); R3: III (57%); R4: III (59%); R5: III (90%); R6: III (59%)

@@ -1,0 +1,91 @@
+﻿file,column,description,unit
+cells_1km,cell_id,Unique cell identifier,
+cells_1km,row,Grid row index,
+cells_1km,col,Grid column index,
+cells_1km,x,"Easting of cell centre, EPSG:3405",m
+cells_1km,y,"Northing of cell centre, EPSG:3405",m
+cells_1km,lon,"Longitude of cell centre, WGS 84",degree
+cells_1km,lat,"Latitude of cell centre, WGS 84",degree
+cells_1km,x_pop,"Easting of population-weighted centroid (measurement point), EPSG:3405",m
+cells_1km,y_pop,"Northing of population-weighted centroid (measurement point), EPSG:3405",m
+cells_1km,commune_code,Code of the commune/ward/special zone containing the cell centre (joins communes.csv),
+cells_1km,province_code,Province code (joins provinces.csv),
+cells_1km,region_code,Socio-economic region code (R1–R6),
+cells_1km,area_type,"urban (ward), rural (commune) or special_zone",
+cells_1km,population,WorldPop 2025 population,persons
+cells_1km,road_density,"Length of main roads divided by max(land area, 0.25 km²)",km/km²
+cells_1km,ntl,"VIIRS night-time light, annual 2025 mean radiance",nW/cm²/sr
+cells_1km,dist_telecom_m,Euclidean distance to nearest telecommunications base station,m
+cells_1km,dist_hub_m,Road-network distance to nearest airport or seaport,m
+cells_1km,dist_health_m,Road-network distance to nearest healthcare facility,m
+cells_1km,dist_school_m,Road-network distance to nearest school,m
+cells_1km,dist_retail_m,Road-network distance to nearest shopping mall or supermarket,m
+cells_1km,dist_green_blue_m,Road-network distance to nearest green or blue space,m
+cells_1km,dist_water_m,Road-network distance to nearest water supply facility,m
+cells_1km,dist_waste_m,Road-network distance to nearest waste treatment facility,m
+cells_1km,xn_road,"Normalised indicator (road density) in [0, 1]; 1 = best cell",index
+cells_1km,xn_tel,"Normalised indicator (telecommunications) in [0, 1]; 1 = best cell",index
+cells_1km,xn_ntl,"Normalised indicator (night-time light) in [0, 1]; 1 = best cell",index
+cells_1km,xn_hub,"Normalised indicator (airports/seaports) in [0, 1]; 1 = best cell",index
+cells_1km,xn_health,"Normalised indicator (healthcare) in [0, 1]; 1 = best cell",index
+cells_1km,xn_school,"Normalised indicator (schools) in [0, 1]; 1 = best cell",index
+cells_1km,xn_retail,"Normalised indicator (malls/supermarkets) in [0, 1]; 1 = best cell",index
+cells_1km,xn_green,"Normalised indicator (green and blue space) in [0, 1]; 1 = best cell",index
+cells_1km,xn_water,"Normalised indicator (water supply) in [0, 1]; 1 = best cell",index
+cells_1km,xn_waste,"Normalised indicator (waste treatment) in [0, 1]; 1 = best cell",index
+cells_1km,cai_I,"Composite accessibility index, economic dimension (baseline, commune-level entropy weights)","index [0, 1]"
+cells_1km,cai_I_equal_weights,"CAI, economic dimension, equal weights (robustness scenario R1)","index [0, 1]"
+cells_1km,cai_I_cell_entropy,"CAI, economic dimension, cell-level entropy weights (robustness scenario R2)","index [0, 1]"
+cells_1km,cai_II,"Composite accessibility index, social dimension (baseline, commune-level entropy weights)","index [0, 1]"
+cells_1km,cai_II_equal_weights,"CAI, social dimension, equal weights (robustness scenario R1)","index [0, 1]"
+cells_1km,cai_II_cell_entropy,"CAI, social dimension, cell-level entropy weights (robustness scenario R2)","index [0, 1]"
+cells_1km,cai_III,"Composite accessibility index, environmental dimension (baseline, commune-level entropy weights)","index [0, 1]"
+cells_1km,cai_III_equal_weights,"CAI, environmental dimension, equal weights (robustness scenario R1)","index [0, 1]"
+cells_1km,cai_III_cell_entropy,"CAI, environmental dimension, cell-level entropy weights (robustness scenario R2)","index [0, 1]"
+communes,commune_code,Commune-level unit code,
+communes,commune_name,Official name (Vietnamese),
+communes,commune_type,"commune, ward or special_zone",
+communes,province_code,Province code,
+communes,province_name,Province name (Vietnamese),
+communes,region_code,Region code (R1–R6),
+communes,region_name,Region name,
+communes,area_type,"urban, rural or special_zone",
+communes,population,Population of computation cells assigned to the unit,persons
+communes,n_cells,Number of computation cells,
+communes,few_cells_flag,True if the unit has fewer than 5 computation cells,
+communes,pwe_I,"Population-weighted exposure, dimension I","index [0, 1]"
+communes,pwe_II,"Population-weighted exposure, dimension II","index [0, 1]"
+communes,pwe_III,"Population-weighted exposure, dimension III","index [0, 1]"
+communes,r_I,"PWE relative to national PWE, dimension I",ratio
+communes,r_II,"PWE relative to national PWE, dimension II",ratio
+communes,r_III,"PWE relative to national PWE, dimension III",ratio
+communes,level_I,"Accessibility level H/M/L, dimension I (commune-level percentiles)",
+communes,level_II,"Accessibility level H/M/L, dimension II (commune-level percentiles)",
+communes,level_III,"Accessibility level H/M/L, dimension III (commune-level percentiles)",
+communes,profile,H/M/L levels in the order I-II-III,
+communes,class,Accessibility class: I low in all three dimensions; II low in one or two; III no low dimension,
+communes,note,Reason for missing values (3 units without computation cells),
+provinces,province_code,Province code,
+provinces,province_name,Province name (Vietnamese),
+provinces,province_name_ascii,Province name without diacritics,
+provinces,region_code,Region code (R1–R6),
+provinces,region_name,Region name,
+provinces,population,Population of computation cells,persons
+provinces,n_cells,Number of computation cells,
+provinces,"pwe_I, pwe_I_lo, pwe_I_hi","PWE, dimension I, with 95% CI (10 km blocks stratified by province, B = 1,000)","index [0, 1]"
+provinces,"r_I, r_I_lo, r_I_hi","Ratio r, dimension I, with 95% CI",ratio
+provinces,"gini_I, gini_I_lo, gini_I_hi","Population-weighted Gini of cell-level CAI, dimension I, with 95% CI","index [0, 1]"
+provinces,level_I,"H/M/L level, dimension I (province-level percentiles, descriptive)",
+provinces,"pwe_II, pwe_II_lo, pwe_II_hi","PWE, dimension II, with 95% CI (10 km blocks stratified by province, B = 1,000)","index [0, 1]"
+provinces,"r_II, r_II_lo, r_II_hi","Ratio r, dimension II, with 95% CI",ratio
+provinces,"gini_II, gini_II_lo, gini_II_hi","Population-weighted Gini of cell-level CAI, dimension II, with 95% CI","index [0, 1]"
+provinces,level_II,"H/M/L level, dimension II (province-level percentiles, descriptive)",
+provinces,"pwe_III, pwe_III_lo, pwe_III_hi","PWE, dimension III, with 95% CI (10 km blocks stratified by province, B = 1,000)","index [0, 1]"
+provinces,"r_III, r_III_lo, r_III_hi","Ratio r, dimension III, with 95% CI",ratio
+provinces,"gini_III, gini_III_lo, gini_III_hi","Population-weighted Gini of cell-level CAI, dimension III, with 95% CI","index [0, 1]"
+provinces,level_III,"H/M/L level, dimension III (province-level percentiles, descriptive)",
+provinces,profile,H/M/L profile I-II-III,
+provinces,class,Provincial class (descriptive),
+provinces,pct_communes_class_I,Share of the province’s communes/wards in Class I,%
+provinces,pct_communes_class_II,Share in Class II,%
+provinces,pct_communes_class_III,Share in Class III,%

@@ -1,0 +1,11 @@
+﻿group_type,code,name,n_communes,n_class_I,pct_communes_class_I,pct_population_class_I,n_class_II,pct_communes_class_II,pct_population_class_II,n_class_III,pct_communes_class_III,pct_population_class_III
+region,R1,Northern Midlands and Mountains,742,282,38.0054,22.5977,260,35.0404,30.9668,200,26.9542,46.4355
+region,R2,Red River Delta,626,5,0.798722,0.100857,19,3.03514,0.795423,602,96.1661,99.1037
+region,R3,North Central Coast,483,93,19.2547,8.11038,145,30.0207,26.6773,245,50.7246,65.2123
+region,R4,South Central Coast and Central Highlands,614,65,10.5863,3.15625,182,29.6417,17.398,367,59.772,79.4458
+region,R5,Southeast,358,0,0,0,33,9.21788,3.07111,325,90.7821,96.9289
+region,R6,Mekong River Delta,495,24,4.84848,3.23081,122,24.6465,20.8764,349,70.5051,75.8928
+urban_rural,urban,Urban (wards),686,2,0.291545,0.0761291,32,4.66472,2.62516,652,95.0437,97.2987
+urban_rural,rural,Rural (communes),2621,466,17.7795,7.64983,723,27.5849,20.5787,1432,54.6356,71.7715
+urban_rural,special_zone,Special zones,11,1,9.09091,0.000372398,6,54.5455,22.8617,4,36.3636,77.1379
+national,VN,National,3318,469,14.135,4.7554,761,22.9355,13.7815,2088,62.9295,81.4631

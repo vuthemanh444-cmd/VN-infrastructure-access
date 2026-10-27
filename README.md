@@ -116,7 +116,7 @@ See also `CITATION.cff` (GitHub shows a “Cite this repository” button). A Ze
 
 ## Version history
 
-- **1.1.0** (2026-10-27): added accessibility by infrastructure type (`data/accessibility_by_infrastructure*`, Supplementary Data 1) and Figures S2–S3; renumbered figures and table references to match the current manuscript (Lorenz curves → Figure 4, provincial Gini → Figure 5, Spearman correlations moved to `extra_`).
+- **1.1.0** (2026-10-27): added accessibility by infrastructure type (`data/accessibility_by_infrastructure*`, Supplementary Data 1) and Figures S2–S3; renumbered figures and table references to match the current manuscript (Lorenz curves → Figure 4, provincial Gini → Figure 5, Spearman correlations moved to `extra_`); all figures regenerated from the final English versions (updated colour palette, 300 dpi).
 - **1.0.0** (2026-10-21): initial release.
 
 ## Authors and contact

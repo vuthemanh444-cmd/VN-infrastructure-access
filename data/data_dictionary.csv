@@ -89,3 +89,64 @@ provinces,class,Provincial class (descriptive),
 provinces,pct_communes_class_I,Share of the province’s communes/wards in Class I,%
 provinces,pct_communes_class_II,Share in Class II,%
 provinces,pct_communes_class_III,Share in Class III,%
+accessibility_by_infrastructure_communes,commune_code,Commune/ward/special zone code (joins communes.csv),
+accessibility_by_infrastructure_communes,commune_name,Name of the commune/ward/special zone,
+accessibility_by_infrastructure_communes,commune_type,"commune, ward or special_zone",
+accessibility_by_infrastructure_communes,province_code,Province code (joins provinces.csv),
+accessibility_by_infrastructure_communes,province_name,Province name,
+accessibility_by_infrastructure_communes,region_code,Socio-economic region code (R1–R6),
+accessibility_by_infrastructure_communes,region_name,Socio-economic region name,
+accessibility_by_infrastructure_communes,area_type,"urban (ward), rural (commune) or special_zone",
+accessibility_by_infrastructure_communes,population,WorldPop 2025 population,persons
+accessibility_by_infrastructure_communes,n_cells,Number of 1 km computation cells,
+accessibility_by_infrastructure_communes,few_cells_flag,True if fewer than 5 cells (interpret with caution),
+accessibility_by_infrastructure_communes,pwe_road,Population-weighted mean of the normalised indicator (road density),"index [0, 1]"
+accessibility_by_infrastructure_communes,pwe_tel,Population-weighted mean of the normalised indicator (telecommunications),"index [0, 1]"
+accessibility_by_infrastructure_communes,pwe_ntl,Population-weighted mean of the normalised indicator (night-time light),"index [0, 1]"
+accessibility_by_infrastructure_communes,pwe_hub,Population-weighted mean of the normalised indicator (airports/seaports),"index [0, 1]"
+accessibility_by_infrastructure_communes,pwe_health,Population-weighted mean of the normalised indicator (healthcare),"index [0, 1]"
+accessibility_by_infrastructure_communes,pwe_school,Population-weighted mean of the normalised indicator (schools),"index [0, 1]"
+accessibility_by_infrastructure_communes,pwe_retail,Population-weighted mean of the normalised indicator (shopping malls/supermarkets),"index [0, 1]"
+accessibility_by_infrastructure_communes,pwe_green,Population-weighted mean of the normalised indicator (green and blue space),"index [0, 1]"
+accessibility_by_infrastructure_communes,pwe_water,Population-weighted mean of the normalised indicator (water supply),"index [0, 1]"
+accessibility_by_infrastructure_communes,pwe_waste,Population-weighted mean of the normalised indicator (waste treatment),"index [0, 1]"
+accessibility_by_infrastructure_communes,contrib_road,Contribution of road density to the dimension PWE = entropy weight × pwe_road,index
+accessibility_by_infrastructure_communes,contrib_tel,Contribution of telecommunications to the dimension PWE = entropy weight × pwe_tel,index
+accessibility_by_infrastructure_communes,contrib_ntl,Contribution of night-time light to the dimension PWE = entropy weight × pwe_ntl,index
+accessibility_by_infrastructure_communes,contrib_hub,Contribution of airports/seaports to the dimension PWE = entropy weight × pwe_hub,index
+accessibility_by_infrastructure_communes,contrib_health,Contribution of healthcare to the dimension PWE = entropy weight × pwe_health,index
+accessibility_by_infrastructure_communes,contrib_school,Contribution of schools to the dimension PWE = entropy weight × pwe_school,index
+accessibility_by_infrastructure_communes,contrib_retail,Contribution of shopping malls/supermarkets to the dimension PWE = entropy weight × pwe_retail,index
+accessibility_by_infrastructure_communes,contrib_green,Contribution of green and blue space to the dimension PWE = entropy weight × pwe_green,index
+accessibility_by_infrastructure_communes,contrib_water,Contribution of water supply to the dimension PWE = entropy weight × pwe_water,index
+accessibility_by_infrastructure_communes,contrib_waste,Contribution of waste treatment to the dimension PWE = entropy weight × pwe_waste,index
+accessibility_by_infrastructure_communes,pwe_I,PWE of the economic dimension = sum of its contributions,"index [0, 1]"
+accessibility_by_infrastructure_communes,pwe_II,PWE of the social dimension = sum of its contributions,"index [0, 1]"
+accessibility_by_infrastructure_communes,pwe_III,PWE of the environmental dimension = sum of its contributions,"index [0, 1]"
+accessibility_by_infrastructure_provinces,province_code,Province code (joins provinces.csv),
+accessibility_by_infrastructure_provinces,province_name,Province name,
+accessibility_by_infrastructure_provinces,region_code,Socio-economic region code (R1–R6),
+accessibility_by_infrastructure_provinces,region_name,Socio-economic region name,
+accessibility_by_infrastructure_provinces,dimension,"Dimension: I economic, II social, III environmental",
+accessibility_by_infrastructure_provinces,indicator,"Indicator code (road, tel, ntl, hub, health, school, retail, green, water, waste) or 'total' for the dimension PWE",
+accessibility_by_infrastructure_provinces,weight,Commune-level entropy weight of the indicator (blank for total),
+accessibility_by_infrastructure_provinces,pwe_indicator,Population-weighted mean of the normalised indicator,"index [0, 1]"
+accessibility_by_infrastructure_provinces,pwe_indicator_lo,Lower bound of the 95% CI of pwe_indicator,"index [0, 1]"
+accessibility_by_infrastructure_provinces,pwe_indicator_hi,Upper bound of the 95% CI of pwe_indicator,"index [0, 1]"
+accessibility_by_infrastructure_provinces,contribution,"Contribution to the dimension PWE = weight × pwe_indicator; for total, the dimension PWE",index
+accessibility_by_infrastructure_provinces,contribution_lo,Lower bound of the 95% CI of contribution,index
+accessibility_by_infrastructure_provinces,contribution_hi,Upper bound of the 95% CI of contribution,index
+accessibility_by_infrastructure_provinces,share_pct,Share of the contribution in the dimension PWE,%
+accessibility_by_infrastructure_groups,level,"national, region or area_type",
+accessibility_by_infrastructure_groups,unit_code,"VN; R1–R6; urban, rural or special_zone",
+accessibility_by_infrastructure_groups,unit_name,Name of the unit,
+accessibility_by_infrastructure_groups,dimension,"Dimension: I economic, II social, III environmental",
+accessibility_by_infrastructure_groups,indicator,"Indicator code (road, tel, ntl, hub, health, school, retail, green, water, waste) or 'total' for the dimension PWE",
+accessibility_by_infrastructure_groups,weight,Commune-level entropy weight of the indicator (blank for total),
+accessibility_by_infrastructure_groups,pwe_indicator,Population-weighted mean of the normalised indicator,"index [0, 1]"
+accessibility_by_infrastructure_groups,pwe_indicator_lo,Lower bound of the 95% CI of pwe_indicator,"index [0, 1]"
+accessibility_by_infrastructure_groups,pwe_indicator_hi,Upper bound of the 95% CI of pwe_indicator,"index [0, 1]"
+accessibility_by_infrastructure_groups,contribution,"Contribution to the dimension PWE = weight × pwe_indicator; for total, the dimension PWE",index
+accessibility_by_infrastructure_groups,contribution_lo,Lower bound of the 95% CI of contribution,index
+accessibility_by_infrastructure_groups,contribution_hi,Upper bound of the 95% CI of contribution,index
+accessibility_by_infrastructure_groups,share_pct,Share of the contribution in the dimension PWE,%

@@ -16,8 +16,8 @@ contact:
     email: "nthao@vnu.edu.vn"
 repository-code: "https://github.com/vuthemanh444-cmd/VN-infrastructure-access"
 url: "https://github.com/vuthemanh444-cmd/VN-infrastructure-access"
-version: "1.0.0"
-date-released: "2026-10-21"
+version: "1.1.0"
+date-released: "2026-10-27"
 license: ODbL-1.0
 keywords:
   - infrastructure accessibility

@@ -1,4 +1,4 @@
-# Infrastructure accessibility and inequality at the commune/ward level in Vietnam
+# Inequalities in access to multidimensional infrastructure across administrative levels in Vietnam
 
 Data and results supporting the article:
 

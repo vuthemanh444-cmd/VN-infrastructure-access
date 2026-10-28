@@ -2,8 +2,6 @@
 
 Data and results supporting the article:
 
-> Ngo, T. H., & Vu, T. M. (2026). *Overlapping deprivations and inequalities in access to infrastructure at the commune/ward level in Vietnam*. Manuscript in preparation.
-
 The study measures population-weighted accessibility to **economic**, **social** and **environmental** infrastructure on a 1 km × 1 km grid covering Vietnam (256,752 populated cells, 101.30 million people, 3,318 commune-level units, 34 provinces, 6 socio-economic regions), classifies communes/wards by overlapping deprivation, and measures inequality with population-weighted Gini coefficients and a nested Theil decomposition. Uncertainty is quantified with a spatial block bootstrap (B = 1,000) and 18 robustness scenarios.
 
 ## Repository structure
